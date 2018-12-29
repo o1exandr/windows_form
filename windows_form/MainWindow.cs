@@ -10,11 +10,16 @@ using System.Windows.Forms;
 
 namespace windows_form
 {
-    public partial class Form1 : Form
+    public partial class MainWindow : Form
     {
-        public Form1()
+        public MainWindow()
         {
             InitializeComponent();
+        }
+
+        private void btnShowControls_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
